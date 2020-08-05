@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<title>This is a Webpage using Boostrap 4</title>
+	<!-- Import Boostrap css,js,font awesome here -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!-- để thêm các icon các biểu tượng -->
+<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<!-- jQuery library -->
+	<link rel="stylesheet" href="css/pro.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<!-- font chữ -->
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/stylecss.css">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> <!-- head website -->
+		<div class="container-fluid">
+			<a class="navbar-branch" href="#">
+			 <!-- Show your company's logo -->
+				<img src="images/girls-and-clothing-fashion-shop-logo-4CEBE10B9E-seeklogo.com.png" height="50">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"><!-- 	Giong Menu-top -->
+				
+				</span>
+				
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class ="navbar-nav ml-auto menu-list">
+					<li class="nav-item">
+						<a class="nav-link active" href="file:///C:/Users/Admin/Desktop/cacfileweb/testhtmlcss/fileweb.html"><i class="fa fa-home"></i>Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa fa-user"></i> About us</a>
+						<div class="sub-menu-1">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#" >Mission</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" >Vision</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" >Action</a>
+							</li>
+						</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-clone"></i>Services</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-donate"></i> Pricing</a>
+						<!-- Gía cả -->
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-users"></i>Clients</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-phone"></i>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- caurousel : Băng chuyền ảnh của boostrap-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+		<li data-target="#slides" data-slide-to="3"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="photo" src="images/colours-fashion-banner-feb15.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">Example</h1>
+				<h3>Autolayout with Boostrap</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">
+					<!-- btn-outline-light: button có border nhưng ko có background  -->
+					View Tutorial
+				</button>
+				<button type="button" class="btn btn-primary btn-lg">Get started</button>
+			</div>
+		</div>
+
+		<div class="carousel-item ">
+			<img class="photo" src="images/anonyme-banner.jpg">
+		</div>
+
+		<div class="carousel-item ">
+			<img class="photo" src="images/banner.jpg">
+		</div>
+
+		
+		<div class="carousel-item ">
+			<img class="photo" src="images/fashion-banner.jpg">
+		</div>
+		</div>
+</div>
+<!-- Jumbotron: Quảng cáo marketing cho website -->
+<div class="container-fluid">
+	<div class="Jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-09 col-xl-10">
+			<p>This is an example of using Bootstrap to make a responsive Website. This is a tutorial</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#">
+				<button type="button" class="btn btn-outline-secondary">
+					Buy a host
+				</button>
+			</a>
+			</div>
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Build your application</h1>
+		</div>
+		<!-- Horizontal Rule: dòng kẻ ngang -->
+		<hr>
+		<div class="col-12">
+			<p>
+				Welcome my Bootstrap 4 tutorials. Bootstrap is an open-source and free front-end library with HTML and CSS based design
+			</p>	
+		</div>	
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<a href="#"><i class="fab fa-instagram" style="color: red"></i></a>
+			<!-- fab: fontAwesome Brand -->
+			<h3>
+				Instagram
+			</h3>
+			<p>
+				Build the latest version of Instagram
+			</p>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://www.facebook.com/profile.php?id=100013391646010"><i class="fab fa-facebook"></i></a>
+			<h3>
+				Facebook
+			</h3>
+			<p>
+				Build your Website and Front-end Application
+			</p>
+		</div>
+
+		<div class="col-sm-12 col-md-4">
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<h3>
+				Twitter
+			</h3>
+			<p>
+				Customize your web UI with Twitter
+			</p>
+		</div>
+	</div>	
+	<hr class="my-4">
+</div>
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>If you build it...</h2>
+			<p>
+				Arduino is an open-source hardware, software and content platform with a global community. It's intended for anyone making interactive projects	
+			</p>
+			<p>
+				Arduino Education is a dedicated team formed by education experts, content developers, engineers and interaction designers from all around the world
+			</p>
+			<br>
+		</div>
+		<div class="col-lg-6">
+			<img src="images/san-lung-25-shop-quan-ao-ban-do-dep-van-nguoi-follow-o-sai-gon-657b204d636180173330091425.jpg">
+		</div>
+	</div>
+</div>
+<hr class="my-2">
+<button class="fun" data-toggle="collapse" data-target="#emoji">
+	Click for fun
+</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="images/598cc47715434d30eb9d01b0bd1ce8d7.gif" width="100" height="100">
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="images/4a8577be5ff20e5030b0f381a05771c8.gif" width="100" height="100">
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="images/chinesefontdesign.com-2017-07-25_08-14-44_090731.gif" width="100" height="100">
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="images/ee1388469bde8948bc96322e1c69ee85.gif" width="100" height="100">
+			</div>	
+		</div>	
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet our team members</h1>
+		</div>
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top"src="images/1769bfd57e9b73a00ee3ee6c68708e23.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Tong Duc Nam</h4>
+					<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+					</p>
+					<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+				</div>
+				<div class="middle">
+					<div class="text">100$</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top"src="images/dd35bc673fe77eb1249df53cb87c48a3.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Tong Duc Nam</h4>
+					<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+					</p>
+					<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+				</div>
+				<div class="middle">
+					<div class="text">100$</div>
+				</div>
+			</div>
+		</div>
+	
+
+	<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top"src="images/ao-len-nam-co-tron-hang-hieu-dep.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Tong Duc Nam</h4>
+					<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+					</p>
+					<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+				</div>
+				<div class="middle">
+					<div class="text">100$</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<br>
+		<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/nam.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+		
+		
+		<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/plus-size-clothing-men-shirts-long-sleeve-2017-new-spring-solid-color-slim-fit-shirt-cotton-casual-shirt-men-clothes-extra-image-4_1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/d203f68edc4aef94bd431670e95cf76e--jackets-for-men-chinese-clothing.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+	
+		
+		<br>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/Casual-Military-Style-Mens-Shirts-Long-Sleeve-New-2015-Men-Clothing-Slim-Fit-Shirt-SMC442.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+		
+
+		<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/1798-New-Fashion-2017-Autumn-Clothes-Young-Man-Leather-Jacket-Coat-Short-Stand-collar-Leisure-Leather.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+	
+			<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top"src="images/New-England-Vintage-Herren-woll-tweed-beil-ufig-anzug-weste-Slim-fit-Weste-Hochzeit-Weste.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Tong Duc Nam</h4>
+							<p class="card-text">Tong Duc Nam is a fullstack developer with 2 months of experiences
+							</p>
+							<a href="#" class="btn btn-outline-secondary">Buy Now</a>
+						</div>
+						<div class="middle">
+							<div class="text">100$</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row-padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>Our vision</h2>
+			<p>All our work is for customer satisfaction with high quality products</p>
+			<p>
+				We make outsourcing all softwares relating to CMS, database, Education
+			</p>
+		</div>
+		<div class="col-lg-6">
+			<img src="images/shop-fashion-island.jpg">	
+		</div>
+	</div>
+	<!-- <hr class="my-4"> -->	
+</div>
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Contact us</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/profile.php?id=100013391646010"><i class="fab fa-facebook"></i></a>
+
+		</div>
+	</div>	
+</div>
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img class="footerphoto" src="images/girls-and-clothing-fashion-shop-logo-4CEBE10B9E-seeklogo.com.png">
+				<hr class="light">
+				<p>111-222-333</p>
+				<p>nam12@gmail.com</p>
+				<p>Khuong Trung street, HaNoi, VietNam</p>
+			</div>	
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Work hours</h5>
+				<hr class="light">
+				<p>Monday-Friday: 8am - 5pm</p>
+				<p>Weekend: 8am -12am</p>
+			</div>	
+			<div class="col-md-4">
+				<hr class="light">
+				<p>Services</p>
+				<hr class="light">
+				<p>Website development</p>
+				<p>Mobile applications</p>
+			</div>	
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy:Webpro</h5>
+
+				
+			</div>
+					
+		</div>		
+	</div>
+	
+</footer>
+</body>
+</html>
